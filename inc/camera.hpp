@@ -58,7 +58,10 @@ public:
 
 	glm::mat4* getGLMViewMatrix_p();
 
-
+	glm::vec3 getPos() { return _p; }
+	glm::vec3 getQuat() { return _q; }
+	glm::vec3 getVel() { return _v; }
+	glm::vec3 getAngVel() { return _w; }
 
 	void print();
 
